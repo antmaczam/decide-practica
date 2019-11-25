@@ -71,7 +71,9 @@ MODULES = [
     'voting',
 ]
 
-BASEURL = 'http://localhost:8000'
+BASEURL = 'https://decide-antmaczam.herokuapp.com/'
+
+APIS = {}
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
